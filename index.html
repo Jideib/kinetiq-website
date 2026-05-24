@@ -11,6 +11,12 @@
 
   <!-- External CSS -->
   <link rel="stylesheet" href="style.css">
+ <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="manifest" href="/images/site.webmanifest">
 </head>
 <body>
   <div class="container">
@@ -119,21 +125,22 @@
 
     <!-- Lead Capture Section -->
     <div id="lead-form" class="lead-section">
-      <div class="lead-title">Intelligence, delivered.</div>
-      <div class="lead-desc">One insight per week. No fluff. Unsubscribe in one click.</div>
-      <form id="waitlist-form" class="inline-form" method="POST">
-        <input type="email" id="email-input" name="email" placeholder="your@email.com" required>
-        <button type="submit" id="submit-btn">Send me intelligence briefs →</button>
-      </form>
-      <div class="form-note" id="form-feedback"></div>
-      <p style="margin-top: 24px; font-size: 0.75rem; color: #6f6f6f;">📬 We respect your inbox. No spam, ever.</p>
+        <div class="lead-title">Intelligence, delivered.</div>
+        <div class="lead-desc">One insight per week. No fluff. Unsubscribe in one click.</div>
+        <form id="waitlist-form" class="inline-form" method="POST">
+            <input type="text" id="name-input" name="name" placeholder="Your name" required>
+            <input type="email" id="email-input" name="email" placeholder="your@email.com" required>
+            <button type="submit" id="submit-btn">Send me intelligence briefs →</button>
+        </form>
+        <div class="form-note" id="form-feedback"></div>
+        <p style="margin-top: 24px; font-size: 0.75rem; color: #6f6f6f;"> We respect your inbox. No spam, ever.</p>
     </div>
 
     <!-- Consulting Booking Section -->
     <div id="consulting" class="consulting-box">
       <h3>Ready to move with intelligence?</h3>
       <p>30 minute discovery call. Strategy, analytics or process. We will map your challenge. No obligation. Just clarity.</p>
-      <a href="#" id="googleCalendarTrigger" class="btn-consult">📅 Book a consulting session →</a>
+      <a href="#" id="googleCalendarTrigger" class="btn-consult"> Book a consulting session →</a>
     </div>
 
     <!-- Footer -->
